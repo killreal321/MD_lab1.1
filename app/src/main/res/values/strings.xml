@@ -3,4 +3,5 @@
     <string name="title_home">Lab 1.1</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="switch_title">pie chart</string>
 </resources>

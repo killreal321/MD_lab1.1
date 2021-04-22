@@ -1,4 +1,4 @@
-package com.example.md_lab11.ui.notifications;
+package com.example.io8325.md_lab11.ui.notifications;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
