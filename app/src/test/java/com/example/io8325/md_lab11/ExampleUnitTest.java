@@ -1,4 +1,4 @@
-package com.example.md_lab11;
+package com.example.io8325.md_lab11;
 
 import org.junit.Test;
 
