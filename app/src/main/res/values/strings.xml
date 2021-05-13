@@ -4,4 +4,9 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="switch_title">pie chart</string>
+    <string name="title">Title</string>
+    <string name="price">Price</string>
+    <string name="todo">TODO</string>
+    <string name="isbn13">Isbn13</string>
+    <string name="subtitle">subtitle</string>
 </resources>

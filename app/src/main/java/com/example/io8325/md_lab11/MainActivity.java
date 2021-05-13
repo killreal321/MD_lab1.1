@@ -10,6 +10,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.md_lab11.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.tabs.TabLayout;
 
@@ -24,8 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = findViewById(R.id.tabLayout);
         viewPager = findViewById(R.id.viewPager);
-        tabLayout.addTab(tabLayout.newTab().setText("Lab2"));
+        tabLayout.addTab(tabLayout.newTab().setText("Lab3"));
         tabLayout.addTab(tabLayout.newTab().setText("Lab1.1"));
+        tabLayout.getTabAt(2).setIcon(R.drawable.third_icon);
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         LabAdapter adapter = new LabAdapter(this, getSupportFragmentManager(),
                 tabLayout.getTabCount());

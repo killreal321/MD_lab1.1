@@ -1,11 +1,11 @@
 package com.example.io8325.md_lab11;
 
 import android.content.Context;
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-
 
 public class LabAdapter extends FragmentPagerAdapter {
 
@@ -22,7 +22,7 @@ public class LabAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         Fragment fragment = null;
-        fragment = new Lab2Fragment();
+        fragment = new Lab3Fragment();
         return fragment;
     }
 
